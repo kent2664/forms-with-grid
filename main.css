@@ -353,6 +353,7 @@
 #submit4 {
     grid-area: submit4;
     justify-self: end;
+    height: 50px;
 }
 
 #application-form button[type="submit"] {
