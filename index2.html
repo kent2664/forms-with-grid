@@ -5,26 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>form-mockup2</title>
 </head>
 
 <body>
     <div class="form-container">
         <form id="form-mockup2" action="/submit-path" method="post">
-            <h2>Connect Us</h2>
-            <div id="name-field">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name">
+            <div id="img-field">
+                <img id="contactImg" width="300" height="500" src="./assets/images/DSC01301.jpg">
             </div>
-            <div id="email-field">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email">
+            <div id="info-field">
+                <h2>Contact Us</h2>
+                <div id="name-field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div id="contact-field">
+                    <strong>Contact</strong>
+                    <p>hi@green.com</p>
+                </div>
+                <div id="email-field">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div id="base-field">
+                    <strong>Based in</strong>
+                    <p>New York, <br>
+                        California, Ohio
+                    </p>
+                </div>
+                <div id="message-field">
+                    <label for="message">Message</label>
+                    <input type="tel" id="message" name="message">
+                </div>
+                <button type="submit">Contact Us</button>
+                <div id="snsicons">
+                    <img width="30" height="30" src="./assets/images/Facebook.png">
+                    <img width="30" height="30" src="./assets/images/insta.png">
+                    <img width="30" height="30" src="./assets/images/twitter.png">
+                </div>
             </div>
-            <div id="message-field">
-                <label for="message">Message</label>
-                <input type="tel" id="message" name="message">
-            </div>
-            <button type="submit">Contact Us</button>
         </form>
     </div>
 </body>
